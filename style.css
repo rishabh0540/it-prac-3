@@ -68,7 +68,7 @@ p{
 
 .course:hover .course-logo > img{
     scale: 1.1;
-    transform: rotate(270deg);
+    transform: rotate(360deg);
     transition-duration: 1000ms;
 }
 
@@ -93,7 +93,7 @@ p{
 }
 
 .hobby:hover{
-    scale: 1.1;
+    scale: 1.15;
     transform: rotate(180deg);
     transition-duration: 1100ms;
 }
@@ -101,6 +101,23 @@ p{
 .hobby > img{
     height: 13rem;
     border-radius: 50%;
+}
+
+.sm-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.fab{
+    color: hsla(217, 23%, 16%, 0.8);
+    font-size: 1.4rem;
+    margin: 0 0.75vw;
+}
+
+.fab:hover{
+    color: hsla(259, 100%, 79%, 1);
 }
 
 .red-heart{
